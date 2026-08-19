@@ -12,6 +12,7 @@ const createReviewSchema = Joi.object({
   stripUnknown: true,
 });
 
+
 const getReviewsSchema = Joi.object({
   status: Joi.string().valid("pending", "approved", "rejected"),
 
@@ -22,11 +23,15 @@ const getReviewsSchema = Joi.object({
   limit: Joi.number().integer().min(1).max(20).default(10),
 });
 
+
+
 const reviewIdSchema = Joi.object({
   id: Joi.string()
     .pattern(/^[0-9a-fA-F]{24}$/)
     .required(),
 });
+
+
 
 const updateReviewSchema = Joi.object({
   title: Joi.string().trim().min(3).max(80),

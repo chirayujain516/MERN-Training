@@ -8,6 +8,7 @@ const createReview = async (data) => {
     title,
   });
 
+  
   if (alreadyReviewed) {
     throw new Error("aap ye review pehle de chuke ho");
   }
@@ -16,6 +17,7 @@ const createReview = async (data) => {
 
   return review;
 };
+
 
 const getReviews = async (queryParams) => {
   const { status, page = 1, limit = 10 } = queryParams;
@@ -28,6 +30,7 @@ const getReviews = async (queryParams) => {
 
   const skip = (page - 1) * limit;
 
+  
   const [reviews, total] = await Promise.all([
     ReviewModel.find(filter).skip(skip).limit(limit),
 
@@ -36,6 +39,8 @@ const getReviews = async (queryParams) => {
 
   const totalPages = Math.ceil(total / limit);
 
+ 
+ 
   return {
     reviews,
     total,

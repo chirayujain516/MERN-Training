@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const reviewSchema = new mongoose.Schema(
+ 
   {
     title: {
       type: String,
@@ -10,6 +11,7 @@ const reviewSchema = new mongoose.Schema(
       trim: true,
     },
 
+ 
     comment: {
       type: String,
       required: [true, "Comment is required"],
@@ -18,6 +20,7 @@ const reviewSchema = new mongoose.Schema(
       trim: true,
     },
 
+    
     rating: {
       type: Number,
       required: [true, "Rating is required"],
@@ -29,6 +32,7 @@ const reviewSchema = new mongoose.Schema(
       },
     },
 
+    
     reviewerName: {
       type: String,
       required: [true, "Reviewer name is required"],
@@ -37,6 +41,7 @@ const reviewSchema = new mongoose.Schema(
       trim: true,
     },
 
+   
     status: {
       type: String,
       enum: {
@@ -46,6 +51,7 @@ const reviewSchema = new mongoose.Schema(
       default: "pending",
     },
 
+   
     isVerifiedPurchase: {
       type: Boolean,
       default: false,

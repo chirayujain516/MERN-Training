@@ -11,11 +11,13 @@ const {
   getReviewsSchema,
 } = require("../validationSchema/reviewValidationSchema");
 
+
 router.post(
   "/createReview",
   validationMiddleware(createReviewSchema),
   reviewController.createReview,
 );
+
 
 router.get(
   "/getReviews",

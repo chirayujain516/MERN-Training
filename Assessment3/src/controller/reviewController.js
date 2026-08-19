@@ -1,6 +1,7 @@
 const reviewService = require("../service/reviewService");
 
 const createReview = async (req, res) => {
+ 
   try {
     const review = await reviewService.createReview(req.body);
     res.status(201).send({
@@ -15,6 +16,7 @@ const createReview = async (req, res) => {
     });
   }
 };
+
 
 const getReviews = async (req, res) => {
   try {
@@ -31,6 +33,7 @@ const getReviews = async (req, res) => {
     });
   }
 };
+
 
 module.exports = {
   createReview,
