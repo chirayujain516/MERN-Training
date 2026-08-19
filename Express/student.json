@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Suthar",
+    "age": 15,
+    "grade": "10th",
+    "email": "aarav.sharma@example.com",
+    "gpa": 3.8
+  },
+  {
+    "id": 2,
+    "name": "Vivaan Patel",
+    "age": 16,
+    "grade": "11th",
+    "email": "vivaan.patel@example.com",
+    "gpa": 3.6
+  },
+  {
+    "id": 3,
+    "name": "Aditya Singh",
+    "age": 14,
+    "grade": "9th",
+    "email": "aditya.singh@example.com",
+    "gpa": 3.9
+  },
+  {
+    "id": 4,
+    "name": "Diya Verma",
+    "age": 15,
+    "grade": "10th",
+    "email": "diya.verma@example.com",
+    "gpa": 3.7
+  },
+  {
+    "id": 5,
+    "name": "Ananya Gupta",
+    "age": 17,
+    "grade": "12th",
+    "email": "ananya.gupta@example.com",
+    "gpa": 4
+  },
+  {
+    "id": 6,
+    "name": "Ishaan Kumar",
+    "age": 16,
+    "grade": "11th",
+    "email": "ishaan.kumar@example.com",
+    "gpa": 3.5
+  },
+  {
+    "id": 7,
+    "name": "Saanvi Joshi",
+    "age": 14,
+    "grade": "9th",
+    "email": "saanvi.joshi@example.com",
+    "gpa": 3.4
+  },
+  {
+    "id": 8,
+    "name": "Reyansh Mehta",
+    "age": 15,
+    "grade": "10th",
+    "email": "reyansh.mehta@example.com",
+    "gpa": 3.2
+  },
+  {
+    "id": 9,
+    "name": "Aadhya Reddy",
+    "age": 17,
+    "grade": "12th",
+    "email": "aadhya.reddy@example.com",
+    "gpa": 3.95
+  },
+  {
+    "id": 10,
+    "name": "Arjun Nair",
+    "age": 16,
+    "grade": "11th",
+    "email": "arjun.nair@example.com",
+    "gpa": 3.3
+  },
+  {
+    "id": 11,
+    "name": "Kavya Iyer",
+    "age": 14,
+    "grade": "9th",
+    "email": "kavya.iyer@example.com",
+    "gpa": 3.6
+  },
+  {
+    "id": 12,
+    "name": "Vihaan Rao",
+    "age": 15,
+    "grade": "10th",
+    "email": "vihaan.rao@example.com",
+    "gpa": 3.1
+  },
+  {
+    "id": 13,
+    "name": "Myra Desai",
+    "age": 17,
+    "grade": "12th",
+    "email": "myra.desai@example.com",
+    "gpa": 3.85
+  },
+  {
+    "id": 14,
+    "name": "Kabir Malhotra",
+    "age": 16,
+    "grade": "11th",
+    "email": "kabir.malhotra@example.com",
+    "gpa": 3.45
+  },
+  {
+    "id": 15,
+    "name": "Anika Chopra",
+    "age": 14,
+    "grade": "9th",
+    "email": "anika.chopra@example.com",
+    "gpa": 3.75
+  },
+  {
+    "id": 16,
+    "name": "Advait Bhatt",
+    "age": 15,
+    "grade": "10th",
+    "email": "advait.bhatt@example.com",
+    "gpa": 3.55
+  },
+  {
+    "id": 17,
+    "name": "Ira Kapoor",
+    "age": 17,
+    "grade": "12th",
+    "email": "ira.kapoor@example.com",
+    "gpa": 4
+  },
+  {
+    "id": 18,
+    "name": "Rudra Pillai",
+    "age": 16,
+    "grade": "11th",
+    "email": "rudra.pillai@example.com",
+    "gpa": 3.25
+  },
+  {
+    "id": 19,
+    "name": "Navya Menon",
+    "age": 14,
+    "grade": "9th",
+    "email": "navya.menon@example.com",
+    "gpa": 3.65
+  },
+  {
+    "id": 20,
+    "name": "Lohar Jain",
+    "age": 14,
+    "grade": "9th",
+    "email": "nitin.menon@example.com",
+    "gpa": 4.02
+  }
+]
