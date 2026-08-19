@@ -18,7 +18,6 @@ router.post(
   reviewController.createReview,
 );
 
-
 router.get(
   "/getReviews",
   validationMiddleware(getReviewsSchema, "query"),

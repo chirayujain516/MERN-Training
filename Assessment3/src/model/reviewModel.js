@@ -51,7 +51,6 @@ const reviewSchema = new mongoose.Schema(
       default: "pending",
     },
 
-   
     isVerifiedPurchase: {
       type: Boolean,
       default: false,

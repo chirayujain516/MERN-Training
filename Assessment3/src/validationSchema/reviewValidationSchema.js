@@ -31,8 +31,6 @@ const reviewIdSchema = Joi.object({
     .required(),
 });
 
-
-
 const updateReviewSchema = Joi.object({
   title: Joi.string().trim().min(3).max(80),
 

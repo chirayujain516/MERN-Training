@@ -37,9 +37,7 @@ const getReviews = async (queryParams) => {
     ReviewModel.countDocuments(filter),
   ]);
 
-  const totalPages = Math.ceil(total / limit);
-
- 
+  const totalPages = Math.ceil(total / limit); 
  
   return {
     reviews,

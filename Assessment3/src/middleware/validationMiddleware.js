@@ -8,9 +8,7 @@ const validationMiddleware = (schema, type = "body") => {
         success: false,
         message: error.details[0].message,
       });
-    }
-
-    
+    } 
     req[type] = value;
     next();
   };
